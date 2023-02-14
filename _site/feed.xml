@@ -1,4 +1,254 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-13T18:57:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darrell’s Blog</title><subtitle>Darrell&apos;s blog about web dev, linux, gaming, sports, family, food.</subtitle><author><name>Darrell Dupas</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T13:34:30-06:00</published><updated>2019-04-18T13:34:30-06:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-13T19:14:28-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darrell’s Blog</title><subtitle>Darrell&apos;s blog about web dev, linux, gaming, sports, family, food.</subtitle><author><name>Darrell Dupas</name></author><entry><title type="html">Mining and Stats</title><link href="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/" rel="alternate" type="text/html" title="Mining and Stats" /><published>2023-01-18T00:00:00-07:00</published><updated>2023-01-18T00:00:00-07:00</updated><id>http://localhost:4000/javascript/data%20mining/sqlite/Mining%20and%20Stats</id><content type="html" xml:base="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/">&lt;h1 id=&quot;fish-milan-kundera&quot;&gt;[FISH] Milan Kundera&lt;/h1&gt;
+
+&lt;p&gt;I’ve always been a gamer, it relieves stress and does not cost much. It does
+cost the time you could of put into something else though. How can we manage 
+the time?&lt;/p&gt;
+
+&lt;p&gt;I started playing War Brokers because it was Linux compatible. 
+&lt;a href=&quot;http://warbrokers.io&quot;&gt;Warbrokers&lt;/a&gt; is renowned for its active community of 
+interesting players. Here is a link to my OG player profile: 
+&lt;a href=&quot;https://stats.warbrokers.io/players/i/60a6a302d142af1f1d389c83&quot;&gt;Milan Kundera&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can see that we’ve had a lot of fun, but there where some tedious aspects
+of keeping track of stats, so the project just grew incrementally. It started as
+a 20 line replit, then it became a serverless firebase project, and now it is a 
+node / sqlite / github hybrid project.&lt;/p&gt;
+
+&lt;p&gt;I have learned a lot from this project, ultimately, stick with what you are good
+at, which for me, is SQL, So firebase was limiting for me. Also, a lot of these
+wonderful services offered online can bite you.&lt;/p&gt;
+
+&lt;p&gt;In my case, firebase was free but after changing some deployment settings I got
+a bill.&lt;/p&gt;
+
+&lt;p&gt;Now MSFISH actively tracks my friends but also tracking the amount of time I 
+play - I am trying to keep it under 150 kills per day. 🤐&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/Screenshot from 2023-01-18 16-05-34.png&quot; alt=&quot;MSFISH Discord Bot Mining&quot; /&gt;
+  &lt;figcaption&gt;MSFISH Discord Bot Mining&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;fish-repoman&quot;&gt;[FISH] Repoman&lt;/h1&gt;
+
+&lt;p&gt;The entire project is hosted on Github with a more detailed breakdown how it 
+works in the README.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ddupas/msfish&quot;&gt;https://github.com/ddupas/msfish&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/images/Screenshot from 2023-01-18 16-09-06.png&quot; alt=&quot;MSFISH Charts Screenshot&quot; /&gt;
+  &lt;figcaption&gt;MSFISH Charts &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;/msfish/&quot;&gt;MSFISH Charts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are interested in data mining there are a few interesting things to
+chew on here. There is a lot of subtle async / await / promise code in this
+project. I feel that the way the charts page accesses its data, using embedded
+sqlite is also something I have never seen anywhere, but sql.js, is vn. 🙃&lt;/p&gt;
+
+&lt;p&gt;🤡 Ask me about it! 🤡&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Javascript" /><category term="Data Mining" /><category term="SQLite" /><category term="Javascript" /><summary type="html">[FISH] Milan Kundera</summary></entry><entry><title type="html">Plate of Shrimp</title><link href="http://localhost:4000/linux/shell/fish/Plate-of-Shrimp/" rel="alternate" type="text/html" title="Plate of Shrimp" /><published>2023-01-17T00:00:00-07:00</published><updated>2023-01-17T00:00:00-07:00</updated><id>http://localhost:4000/linux/shell/fish/Plate%20of%20Shrimp</id><content type="html" xml:base="http://localhost:4000/linux/shell/fish/Plate-of-Shrimp/">&lt;h1 id=&quot;linux-on-the-desktop&quot;&gt;Linux on the Desktop&lt;/h1&gt;
+
+&lt;p&gt;Firstly, it matters because of culture. I am more productive in Linux because of 
+how I feel while I am working. I have an inexpensive laptop that runs Linux well,
+maybe not everything, but enough that its comfortable. Every time I make a blog
+about Linux stuff, 6 months later I look back on it and wonder why I made things
+so complicated.&lt;/p&gt;
+
+&lt;p&gt;I just want to create.&lt;/p&gt;
+
+&lt;p&gt;That being said, I have used a thousand configurations, and when I am tired, I will
+try anything because its fun. That is Linux culture I have, the culture of
+experimenting.  The balance between always trying new things and 
+using the tools to create can be tricky 🥸.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;I am not a programmer.
+Nor am I a writer.
+Where is Serge Ibaka?
+Lets Go Blue Jays!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;rm--rf-&quot;&gt;rm -rf ~&lt;/h1&gt;
+
+&lt;p&gt;So, just to be clear, I enjoy starting over. So when I have a fresh install, what
+are some of the things I can not live without?&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0. ARCH LINUX with yay and Gnome
+1. Set shell with chsh to fish
+2. Set editor in fish.config to micro
+3. Install builder and git with keys
+4. Bing wallpaper and Hide Top Bar Gnome Extensions
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;rtfm-arch-linux-ftw&quot;&gt;rtfm arch linux ftw&lt;/h1&gt;
+
+&lt;p&gt;If you haven’t noticed, Arch Linux documentation is very good. Check it out!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://archlinux.org&quot;&gt;ARCH LINUX&lt;/a&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/ddupas/1c81e390f7db6cf2273f13790db3b3c3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish&quot;&gt;oh-my-fish repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot from 2023-01-18 18-07-17.png&quot; alt=&quot;gnome desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Never give up!&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Linux" /><category term="Shell" /><category term="Fish" /><category term="Linux" /><summary type="html">Linux on the Desktop</summary></entry><entry><title type="html">Email Me</title><link href="http://localhost:4000/contact/email-link/" rel="alternate" type="text/html" title="Email Me" /><published>2023-01-15T00:00:00-07:00</published><updated>2023-01-15T00:00:00-07:00</updated><id>http://localhost:4000/contact/email-link</id><content type="html" xml:base="http://localhost:4000/contact/email-link/">&lt;p&gt;I also have a phone number 🤓&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Contact" /><category term="link" /><category term="email" /><summary type="html">I also have a phone number 🤓</summary></entry><entry><title type="html">Post: Quote</title><link href="http://localhost:4000/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2023-01-14T00:00:00-07:00</published><updated>2023-01-14T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-quote</id><content type="html" xml:base="http://localhost:4000/blog/post-quote/">&lt;blockquote&gt;
+  &lt;p&gt;culture eats strategy for breakfast&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+♥️ “There is a famous Peter Drucker quote that says that &amp;quot;culture eats strategy for breakfast&amp;quot;. This implies that the culture of your company always determines success regardless of how effective your strategy may be”. &lt;a href=&quot;https://t.co/AvUiEu9UKc&quot;&gt;pic.twitter.com/AvUiEu9UKc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Celina Zacarias (@Celina_Zacarias) &lt;a href=&quot;https://twitter.com/Celina_Zacarias/status/1455233909143195652?ref_src=twsrc%5Etfw&quot;&gt;November 1, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="Post Formats" /><category term="quote" /><summary type="html">culture eats strategy for breakfast</summary></entry><entry><title type="html">Ari and I make pancakes</title><link href="http://localhost:4000/family/Ari-and-I-make-pancakes/" rel="alternate" type="text/html" title="Ari and I make pancakes" /><published>2022-02-18T00:00:00-07:00</published><updated>2022-02-18T00:00:00-07:00</updated><id>http://localhost:4000/family/Ari%20and%20I%20make%20pancakes</id><content type="html" xml:base="http://localhost:4000/family/Ari-and-I-make-pancakes/">&lt;p&gt;&lt;img src=&quot;/images/pancakes/ingredients.jpg&quot; alt=&quot;ingredients&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My pancakes are legendary 😍 😍 😍&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe height=&quot;640&quot; src=&quot;https://www.youtube.com/embed/vMML9M3v1Sw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+
+&lt;p&gt;None of my actual cooking requires measurements, we just go by look and feel.&lt;/p&gt;
+
+&lt;p&gt;In smaller bowl wet ingredients:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 or 2 eggs&lt;/li&gt;
+  &lt;li&gt;tablespoon of oil&lt;/li&gt;
+  &lt;li&gt;1 cup of milk&lt;/li&gt;
+  &lt;li&gt;1/2 cup of buttermilk&lt;/li&gt;
+  &lt;li&gt;mix that&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In larger bowl dry ingredients:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.5 or 2 cups of flour&lt;/li&gt;
+  &lt;li&gt;1 tablespoon of baking powder&lt;/li&gt;
+  &lt;li&gt;half a teaspoon of salt&lt;/li&gt;
+  &lt;li&gt;1 tablespoon of sugar&lt;/li&gt;
+  &lt;li&gt;1/4 teaspoon of baking soda (use back of spoon handle)&lt;/li&gt;
+  &lt;li&gt;mix that&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Combine in large bowl, use the back of a tablespoon to mix along the edges of 
+bowl to smooth lumps, add milk until you get something that will pour, but no 
+runnier. If that makes sense.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; 
+Heat pan before pouring, and be generous with oil in pan. Oil should sizzle a 
+little. Usually medium heat for a few minutes then turn down to medium low.&lt;/p&gt;
+
+&lt;p&gt;Though, there can be some problems along the way. This pancake was slightly
+large and or flipped too soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pancakes/broken cake.jpg&quot; alt=&quot; ok&quot; /&gt;
+&lt;img src=&quot;/images/pancakes/too soon flip.jpg&quot; alt=&quot; ok&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Much better here, a little smaller.
+&lt;img src=&quot;/images/pancakes/nice flip 1.jpg&quot; alt=&quot; ok&quot; /&gt;
+&lt;img src=&quot;/images/pancakes/nice flip 2.jpg&quot; alt=&quot; ok&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just a pancake, or can it be, L O V E ❤️❤️❤️
+&lt;img src=&quot;/images/pancakes/ok pancake.jpg&quot; alt=&quot; ok&quot; /&gt; 
+&lt;img src=&quot;/images/pancakes/valentine cake.jpg&quot; alt=&quot; ok&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;💔 aw 💔&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="family" /><category term="dog" /><category term="food" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/pancakes/ari01.jpg" /><media:content medium="image" url="http://localhost:4000/images/pancakes/ari01.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">echo figlet xclip</title><link href="http://localhost:4000/computing/echo-figlet-xclip/" rel="alternate" type="text/html" title="echo figlet xclip" /><published>2022-02-17T00:00:00-07:00</published><updated>2022-02-17T00:00:00-07:00</updated><id>http://localhost:4000/computing/echo%20figlet%20xclip</id><content type="html" xml:base="http://localhost:4000/computing/echo-figlet-xclip/">&lt;pre style=&quot;line-height:.7 !important; overflow:hidden&quot;&gt;
+
+                 ██              
+                ░██              
+  █████   █████ ░██       ██████ 
+ ██░░░██ ██░░░██░██████  ██░░░░██
+░███████░██  ░░ ░██░░░██░██   ░██
+░██░░░░ ░██   ██░██  ░██░██   ░██
+░░██████░░█████ ░██  ░██░░██████ 
+ ░░░░░░  ░░░░░  ░░   ░░  ░░░░░░  
+
+
+   ████ ██          ██           ██  
+  ░██░ ░░   █████  ░██          ░██  
+ ██████ ██ ██░░░██ ░██  █████  ██████
+░░░██░ ░██░██  ░██ ░██ ██░░░██░░░██░ 
+  ░██  ░██░░██████ ░██░███████  ░██  
+  ░██  ░██ ░░░░░██ ░██░██░░░░   ░██  
+  ░██  ░██  █████  ███░░██████  ░░██ 
+  ░░   ░░  ░░░░░  ░░░  ░░░░░░    ░░  
+
+                  ██ ██        
+                 ░██░░  ██████ 
+ ██   ██  █████  ░██ ██░██░░░██
+░░██ ██  ██░░░██ ░██░██░██  ░██
+ ░░███  ░██  ░░  ░██░██░██████ 
+  ██░██ ░██   ██ ░██░██░██░░░  
+ ██ ░░██░░█████  ███░██░██     
+░░   ░░  ░░░░░  ░░░ ░░ ░░      
+&lt;/pre&gt;
+
+&lt;p&gt;Ever wanted some cool ascii art in your text documents?&lt;/p&gt;
+
+&lt;p&gt;The figlet utility does that and has many fonts. You can check the different fonts&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.figlet.org/examples.html&quot;&gt;figlet examples&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;echo figlet xclip&apos;&lt;/span&gt; | figlet &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; 3d | xclip
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;command-breakdown&quot;&gt;Command breakdown&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$&lt;/td&gt;
+      &lt;td&gt;The dollar sign command prompt, you dont type that, it is in the Terminal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo&lt;/td&gt;
+      &lt;td&gt;Command that repeats whatever it sees, outputs to standard output&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;‘echo figlet xlip’&lt;/td&gt;
+      &lt;td&gt;A text string in quotes that is the input to the echo command&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;|&lt;/td&gt;
+      &lt;td&gt;The pipe symbol command connector puts the output of the previous command as input to the next&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;figlet&lt;/td&gt;
+      &lt;td&gt;The program that converts character in text (strings) into a figure-letter (figlet)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-p&lt;/td&gt;
+      &lt;td&gt;An option to split lines&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-f 3d&lt;/td&gt;
+      &lt;td&gt;The font to use,  list fonts with showfigfonts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;|xclip&lt;/td&gt;
+      &lt;td&gt;Pipe into xclip (put contents into X11 clipboard may use middle mouse button to paste)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre style=&quot;line-height:.7 !important; overflow:hidden&quot;&gt;
+$ echo &apos;focus&apos; | figlet -f doom
+  __                     
+ / _|                    
+| |_ ___   ___ _   _ ___ 
+|  _/ _ \ / __| | | / __|
+| || (_) | (__| |_| \__ \
+|_| \___/ \___|\__,_|___/
+                         
+ &lt;/pre&gt;
+
+&lt;h1 id=&quot;figlet-as-a-discord-bot-called-ascii&quot;&gt;figlet as a discord bot called ASCII&lt;/h1&gt;
+
+&lt;p&gt;ASCII discord bot if you like that sort of thing. 🤔
+&lt;a href=&quot;https://top.gg/bot/326619566719369217&quot;&gt;ASCII&lt;/a&gt;&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Computing" /><category term="Shell" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/echo%20figlet%20xclip.png" /><media:content medium="image" url="http://localhost:4000/images/echo%20figlet%20xclip.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T13:34:30-06:00</published><updated>2019-04-18T13:34:30-06:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -11,211 +261,116 @@
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="blog" /><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Post: Link</title><link href="http://localhost:4000/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00-07:00</published><updated>2010-03-07T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-link</id><content type="html" xml:base="http://localhost:4000/blog/post-link/">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="blog" /><category term="Jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Openbox Configuration</title><link href="http://localhost:4000/linux/openbox-configuration/" rel="alternate" type="text/html" title="Openbox Configuration" /><published>2017-12-27T00:00:00-07:00</published><updated>2017-12-27T00:00:00-07:00</updated><id>http://localhost:4000/linux/openbox-configuration</id><content type="html" xml:base="http://localhost:4000/linux/openbox-configuration/">&lt;p&gt;If you use a login manager Openbox will
+read its startup program list from the file ~/.config/openbox/autostart. 
+If that file does not exist it might use the system wide autostart located 
+at /etc/xdg/openbox/autostart. But, if you use startx you will need to 
+add your startup programs to ~/.xinitrc.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Here is the ever changing Openbox autostart file.&lt;/p&gt;
 
-&lt;p&gt;Some &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html">This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.</summary></entry><entry><title type="html">Post: Notice</title><link href="http://localhost:4000/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00-07:00</published><updated>2010-02-05T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-notice</id><content type="html" xml:base="http://localhost:4000/blog/post-notice/">&lt;p&gt;A notice displays information that explains nearby content. Often used to call attention to a particular detail.&lt;/p&gt;
-
-&lt;p&gt;When using Kramdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; can be added after a sentence to assign the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.notice&lt;/code&gt; to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
-
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Changes in Service:&lt;/strong&gt; We just updated our &lt;a href=&quot;#&quot;&gt;privacy policy&lt;/a&gt; here to better service our customers. We recommend reviewing the changes.&lt;/p&gt;
-
-&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Primary Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. &lt;a href=&quot;#&quot;&gt;Praesent libero&lt;/a&gt;. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Info Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing elit&lt;/a&gt;. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
-
-&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Warning Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&quot;#&quot;&gt;Integer nec odio&lt;/a&gt;. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
-
-&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Danger Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, &lt;a href=&quot;#&quot;&gt;consectetur adipiscing&lt;/a&gt; elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
-
-&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Success Notice:&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at &lt;a href=&quot;#&quot;&gt;nibh elementum&lt;/a&gt; imperdiet.&lt;/p&gt;
-
-&lt;p&gt;Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdownify&lt;/code&gt; is a good way to go.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ notice-2 | markdownify }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dbus-launch &amp;amp;
+dunst &amp;amp;
+pasystray &amp;amp;
+nitrogen --restore &amp;amp;
+tint2 &amp;amp;
+notify-send &quot;Welcome to Zenbook&quot; &amp;amp;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;notice&quot;&gt;
-  
-&lt;h4 id=&quot;new-site-features&quot;&gt;New Site Features&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;You can now have cover images on blog pages&lt;/li&gt;
-  &lt;li&gt;Drafts will now auto-save while writing&lt;/li&gt;
+  &lt;li&gt;dbus-launch - dbus an inter-process communication daemon&lt;/li&gt;
+  &lt;li&gt;dunst - a dbus messaging daemon&lt;/li&gt;
+  &lt;li&gt;pasystray - pulse audio tray for configuring sound and mic settings&lt;/li&gt;
+  &lt;li&gt;nitrogen - sets desktop wallpaper&lt;/li&gt;
+  &lt;li&gt;tint2 - a very configurable toolbar&lt;/li&gt;
+  &lt;li&gt;notify-send - uses dunst to display welcom message&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;/div&gt;
+&lt;p&gt;You will want to do 2 important things now:&lt;/p&gt;
 
-&lt;p&gt;Or you could skip the capture and stick with straight HTML.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;set up openbox menu&lt;/li&gt;
+  &lt;li&gt;configure tint2&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;notice&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h4&amp;gt;&lt;/span&gt;Message&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h4&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;A basic message.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;h1 id=&quot;obmenu-generator&quot;&gt;obmenu-generator&lt;/h1&gt;
+
+&lt;p&gt;A static menu is slightly more responsive, but you need to 
+re-generate your menu if new software is added.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd ~/.config/openbox
+$ obmenu-generator -s &amp;gt; menu.xml
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div class=&quot;notice&quot;&gt;
-  &lt;h4&gt;Message&lt;/h4&gt;
-  &lt;p&gt;A basic message.&lt;/p&gt;
-&lt;/div&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="Post Formats" /><category term="notice" /><summary type="html">A notice displays information that explains nearby content. Often used to call attention to a particular detail.</summary></entry><entry><title type="html">Post: Quote</title><link href="http://localhost:4000/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00-07:00</published><updated>2010-02-05T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-quote</id><content type="html" xml:base="http://localhost:4000/blog/post-quote/">&lt;blockquote&gt;
-  &lt;p&gt;Only one thing is impossible for God: To find any sense in any copyright law on the planet.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h1 id=&quot;use-your-own-menuxml&quot;&gt;use your own menu.xml&lt;/h1&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;cite&gt;&lt;a href=&quot;http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html&quot;&gt;Mark Twain&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="Post Formats" /><category term="quote" /><summary type="html">Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain</summary></entry><entry><title type="html">Post: Chat</title><link href="http://localhost:4000/blog/post-chat/" rel="alternate" type="text/html" title="Post: Chat" /><published>2010-01-08T00:00:00-07:00</published><updated>2010-01-08T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-chat</id><content type="html" xml:base="http://localhost:4000/blog/post-chat/">&lt;p&gt;Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.&lt;/p&gt;
+&lt;p&gt;The system wide menu is /etc/xdg/openbox/menu.xml, it might look something like this:&lt;/p&gt;
 
-&lt;p&gt;Costello: Funny names?&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/ddupas/0af59ab65c3ffda354e44065ee1a17c8.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third–&lt;/p&gt;
+&lt;h1 id=&quot;tint2rc&quot;&gt;tint2rc&lt;/h1&gt;
 
-&lt;p&gt;Costello: That’s what I want to find out. I want you to tell me the names of the fellows on the St. Louis team.&lt;/p&gt;
+&lt;p&gt;You might want to add launchers for your most frequently used programs.
+.desktop files are act as shortcuts to programs and provides icons etc.&lt;/p&gt;
 
-&lt;p&gt;Abbott: I’m telling you. Who’s on first, What’s on second, I Don’t Know is on third–&lt;/p&gt;
-
-&lt;p&gt;Costello: You know the fellows’ names?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yes.&lt;/p&gt;
-
-&lt;p&gt;Costello: Well, then who’s playing first?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yes.&lt;/p&gt;
-
-&lt;p&gt;Costello: I mean the fellow’s name on first base.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Who.&lt;/p&gt;
-
-&lt;p&gt;Costello: The fellow playin’ first base.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Who.&lt;/p&gt;
-
-&lt;p&gt;Costello: The guy on first base.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Who is on first.&lt;/p&gt;
-
-&lt;p&gt;Costello: Well, what are you askin’ me for?&lt;/p&gt;
-
-&lt;p&gt;Abbott: I’m not asking you–I’m telling you. Who is on first.&lt;/p&gt;
-
-&lt;p&gt;Costello: I’m asking you–who’s on first?&lt;/p&gt;
-
-&lt;p&gt;Abbott: That’s the man’s name.&lt;/p&gt;
-
-&lt;p&gt;Costello: That’s who’s name?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yes.&lt;/p&gt;
-
-&lt;p&gt;Costello: When you pay off the first baseman every month, who gets the money?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Every dollar of it. And why not, the man’s entitled to it.&lt;/p&gt;
-
-&lt;p&gt;Costello: Who is?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yes.&lt;/p&gt;
-
-&lt;p&gt;Costello: So who gets it?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Why shouldn’t he? Sometimes his wife comes down and collects it.&lt;/p&gt;
-
-&lt;p&gt;Costello: Who’s wife?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yes. After all, the man earns it.&lt;/p&gt;
-
-&lt;p&gt;Costello: Who does?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Absolutely.&lt;/p&gt;
-
-&lt;p&gt;Costello: Well, all I’m trying to find out is what’s the guy’s name on first base?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Oh, no, no. What is on second base.&lt;/p&gt;
-
-&lt;p&gt;Costello: I’m not asking you who’s on second.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Who’s on first!&lt;/p&gt;
-
-&lt;p&gt;Costello: St. Louis has a good outfield?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Oh, absolutely.&lt;/p&gt;
-
-&lt;p&gt;Costello: The left fielder’s name?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Why.&lt;/p&gt;
-
-&lt;p&gt;Costello: I don’t know, I just thought I’d ask.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Well, I just thought I’d tell you.&lt;/p&gt;
-
-&lt;p&gt;Costello: Then tell me who’s playing left field?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Who’s playing first.&lt;/p&gt;
-
-&lt;p&gt;Costello: Stay out of the infield! The left fielder’s name?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Why.&lt;/p&gt;
-
-&lt;p&gt;Costello: Because.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Oh, he’s center field.&lt;/p&gt;
-
-&lt;p&gt;Costello: Wait a minute. You got a pitcher on this team?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Wouldn’t this be a fine team without a pitcher?&lt;/p&gt;
-
-&lt;p&gt;Costello: Tell me the pitcher’s name.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Tomorrow.&lt;/p&gt;
-
-&lt;p&gt;Costello: Now, when the guy at bat bunts the ball–me being a good catcher–I want to throw the guy out at first base, so I pick up the ball and throw it to who?&lt;/p&gt;
-
-&lt;p&gt;Abbott: Now, that’s he first thing you’ve said right.&lt;/p&gt;
-
-&lt;p&gt;Costello: I DON’T EVEN KNOW WHAT I’M TALKING ABOUT!&lt;/p&gt;
-
-&lt;p&gt;Abbott: Don’t get excited. Take it easy.&lt;/p&gt;
-
-&lt;p&gt;Costello: I throw the ball to first base, whoever it is grabs the ball, so the guy runs to second. Who picks up the ball and throws it to what. What throws it to I don’t know. I don’t know throws it back to tomorrow–a triple play.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Yeah, it could be.&lt;/p&gt;
-
-&lt;p&gt;Costello: Another guy gets up and it’s a long ball to center.&lt;/p&gt;
-
-&lt;p&gt;Abbott: Because.&lt;/p&gt;
-
-&lt;p&gt;Costello: Why? I don’t know. And I don’t care.&lt;/p&gt;
-
-&lt;p&gt;Abbott: What was that?&lt;/p&gt;
-
-&lt;p&gt;Costello: I said, I DON’T CARE!&lt;/p&gt;
-
-&lt;p&gt;Abbott: Oh, that’s our shortstop!&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="chat" /><category term="Post Formats" /><summary type="html">Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.</summary></entry><entry><title type="html">Post: Modified Date</title><link href="http://localhost:4000/blog/post-modified/" rel="alternate" type="text/html" title="Post: Modified Date" /><published>2010-01-07T00:00:00-07:00</published><updated>2016-03-09T14:20:02-07:00</updated><id>http://localhost:4000/blog/post-modified</id><content type="html" xml:base="http://localhost:4000/blog/post-modified/">&lt;p&gt;This post has been updated and should show a modified date if used in a layout.&lt;/p&gt;
-
-&lt;p&gt;All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">This post has been updated and should show a modified date if used in a layout.</summary></entry><entry><title type="html">Post: Standard</title><link href="http://localhost:4000/blog/post-standard/" rel="alternate" type="text/html" title="Post: Standard" /><published>2010-01-07T00:00:00-07:00</published><updated>2010-01-07T00:00:00-07:00</updated><id>http://localhost:4000/blog/post-standard</id><content type="html" xml:base="http://localhost:4000/blog/post-standard/">&lt;p&gt;All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.&lt;/p&gt;
-
-&lt;p&gt;Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;This post has a manual excerpt &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; set after the second paragraph. The following YAML Front Matter has also be applied:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;excerpt_separator&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;!--more--&amp;gt;&quot;&lt;/span&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;launcher_item_app = /usr/share/applications/google-chrome.desktop
+launcher_item_app = /usr/share/applications/xfce4-terminal.desktop
+launcher_item_app = /usr/share/applications/thunar.desktop
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;If you could keep awake (but of course you can’t) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.&lt;/p&gt;
+&lt;p&gt;I also prefer the bar on the top of the screen, the reason being is the mouse
+pointer is more likely to be near the top of the screen and I like to minimize
+the distance the mouse has to move in general. I also like to use autohide.&lt;/p&gt;
 
-&lt;p&gt;I don’t know whether you have ever seen a map of a person’s mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child’s mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;panel_position = top center horizontal
+autohide = 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Of course the Neverlands vary a good deal. John’s, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other’s nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.&lt;/p&gt;
+&lt;p&gt;The laptop battery indicator built into tint2 shows up when you have a charge
+percentage lower than the value for battery_hide.&lt;/p&gt;
 
-&lt;p&gt;Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;battery_hide = 95
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Occasionally in her travels through her children’s minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael’s minds, while Wendy’s began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html">All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end. Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.</summary></entry></feed>
+&lt;h2 id=&quot;font-dpi-force-xresources&quot;&gt;Font dpi force ~/.Xresources&lt;/h2&gt;
+
+&lt;p&gt;Xft.dpi:    144&lt;/p&gt;
+
+&lt;h1 id=&quot;xfce4-mime-settings&quot;&gt;xfce4-mime-settings&lt;/h1&gt;
+
+&lt;p&gt;One thing that can be frustrating in Linux at this point can be setting your
+default applications. Especially since there doesn’t seem to be a default 
+file browser set on a fresh install.&lt;/p&gt;
+
+&lt;p&gt;I use xfce4-mime-settings to set my default applications in openbox. 
+Set inode/directory to thunar.&lt;/p&gt;
+
+&lt;h1 id=&quot;kate&quot;&gt;kate&lt;/h1&gt;
+
+&lt;p&gt;Check out this editor. It has been around a long time now and is very good. You will 
+need to add hunspell to your install to get spell checking. Kate has decent support
+for projects that use git. It is lightning fast compared to atom or sublime.&lt;/p&gt;
+
+&lt;h1 id=&quot;mypaint&quot;&gt;mypaint&lt;/h1&gt;
+
+&lt;p&gt;If you have a tablet or touchscreen you will want this program. It is the closest
+thing to pen and paper I can find. Mypaint uses the keyboard a lot, it is worth
+while to learn the keys:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;shift - draw a line&lt;/li&gt;
+  &lt;li&gt;z - undo&lt;/li&gt;
+  &lt;li&gt;d - smaller pen&lt;/li&gt;
+  &lt;li&gt;f - bigger pen&lt;/li&gt;
+  &lt;li&gt;’-‘ - zoom out&lt;/li&gt;
+  &lt;li&gt;’+’ - zoom in&lt;/li&gt;
+  &lt;li&gt;r - pick color&lt;/li&gt;
+  &lt;li&gt;x - recent colors&lt;/li&gt;
+  &lt;li&gt;e - eraser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Screenshot_20170127_105831.png&quot; alt=&quot;mypaint&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;spectacle&quot;&gt;spectacle&lt;/h1&gt;
+
+&lt;p&gt;A less geeky simple screenshot utility.&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Linux" /><summary type="html">If you use a login manager Openbox will read its startup program list from the file ~/.config/openbox/autostart. If that file does not exist it might use the system wide autostart located at /etc/xdg/openbox/autostart. But, if you use startx you will need to add your startup programs to ~/.xinitrc.</summary></entry></feed>
