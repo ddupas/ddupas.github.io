@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-13T21:12:39-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darrell’s Blog</title><subtitle>Darrell&apos;s blog about web dev, linux, gaming, sports, family, food.</subtitle><author><name>Darrell Dupas</name></author><entry><title type="html">Mining and Stats</title><link href="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/" rel="alternate" type="text/html" title="Mining and Stats" /><published>2023-01-18T00:00:00-07:00</published><updated>2023-01-18T00:00:00-07:00</updated><id>http://localhost:4000/javascript/data%20mining/sqlite/Mining%20and%20Stats</id><content type="html" xml:base="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/">&lt;h1 id=&quot;fish-milan-kundera&quot;&gt;[FISH] Milan Kundera&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-15T10:28:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Darrell’s Blog</title><subtitle>Darrell&apos;s blog about web dev, linux, gaming, sports, family, food.</subtitle><author><name>Darrell Dupas</name></author><entry><title type="html">Mining and Stats</title><link href="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/" rel="alternate" type="text/html" title="Mining and Stats" /><published>2023-01-18T00:00:00-07:00</published><updated>2023-01-18T00:00:00-07:00</updated><id>http://localhost:4000/javascript/data%20mining/sqlite/Mining%20and%20Stats</id><content type="html" xml:base="http://localhost:4000/javascript/data%20mining/sqlite/Mining-and-Stats/">&lt;h1 id=&quot;fish-milan-kundera&quot;&gt;[FISH] Milan Kundera&lt;/h1&gt;
 
-&lt;p&gt;I’ve always been a gamer, it relieves stress and does not cost much. It does
-cost the time you could of put into something else though. How can we manage 
+&lt;p&gt;I’ve always been a gamer, it relieves stress and does not cost much. It does 
+cost the time you could have put into something else though. How can we manage
 the time?&lt;/p&gt;
 
-&lt;p&gt;I started playing War Brokers because it was Linux compatible. 
-&lt;a href=&quot;http://warbrokers.io&quot;&gt;Warbrokers&lt;/a&gt; is renowned for its active community of 
-interesting players. Here is a link to my OG player profile: 
-&lt;a href=&quot;https://stats.warbrokers.io/players/i/60a6a302d142af1f1d389c83&quot;&gt;Milan Kundera&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I started playing War Brokers because it was Linux-compatible. Warbrokers is
+renowned for its active community of interesting players. Here is a link to my
+OG player profile: 
+&lt;a href=&quot;https://stats.warbrokers.io/players/i/60a6a302d142af1f1d389c83&quot;&gt;Milan Kundera&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;You can see that we’ve had a lot of fun, but there where some tedious aspects
-of keeping track of stats, so the project just grew incrementally. It started as
-a 20 line replit, then it became a serverless firebase project, and now it is a 
+&lt;p&gt;You can see that we’ve had a lot of fun, but there were some tedious aspects of
+keeping track of stats, so the project just grew incrementally. It started as a
+20-line replit, then it became a serverless firebase project, and now it is a
 node / sqlite / github hybrid project.&lt;/p&gt;
 
-&lt;p&gt;I have learned a lot from this project, ultimately, stick with what you are good
-at, which for me, is SQL, So firebase was limiting for me. Also, a lot of these
-wonderful services offered online can bite you.&lt;/p&gt;
+&lt;p&gt;SQL is my friend, So firebase was limiting for me. Also, a lot of these
+wonderful services offered online can bite you. In my case, firebase was free
+but after changing some deployment settings I got a bill.&lt;/p&gt;
 
-&lt;p&gt;In my case, firebase was free but after changing some deployment settings I got
-a bill.&lt;/p&gt;
-
-&lt;p&gt;Now MSFISH actively tracks my friends but also tracking the amount of time I 
-play - I am trying to keep it under 150 kills per day. 🤐&lt;/p&gt;
+&lt;p&gt;Now MSFISH actively tracks my friends but also tracks the amount of time I play -
+I am trying to keep it under 150 kills per day. 🤐&lt;/p&gt;
 
 &lt;figure&gt;
   &lt;img src=&quot;http://localhost:4000/images/Screenshot from 2023-01-18 16-05-34.png&quot; alt=&quot;MSFISH Discord Bot Mining&quot; /&gt;
@@ -31,7 +28,7 @@ play - I am trying to keep it under 150 kills per day. 🤐&lt;/p&gt;
 
 &lt;h1 id=&quot;fish-repoman&quot;&gt;[FISH] Repoman&lt;/h1&gt;
 
-&lt;p&gt;The entire project is hosted on Github with a more detailed breakdown how it 
+&lt;p&gt;The entire project is hosted on Github with a more detailed breakdown of how it 
 works in the README.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/ddupas/msfish&quot;&gt;https://github.com/ddupas/msfish&lt;/a&gt;&lt;/p&gt;
@@ -50,16 +47,17 @@ sqlite is also something I have never seen anywhere, but sql.js, is vn. 🙃&lt;
 
 &lt;p&gt;🤡 Ask me about it! 🤡&lt;/p&gt;</content><author><name>Darrell Dupas</name></author><category term="Javascript" /><category term="Data Mining" /><category term="SQLite" /><category term="Javascript" /><summary type="html">[FISH] Milan Kundera</summary></entry><entry><title type="html">Plate of Shrimp</title><link href="http://localhost:4000/linux/shell/fish/Plate-of-Shrimp/" rel="alternate" type="text/html" title="Plate of Shrimp" /><published>2023-01-17T00:00:00-07:00</published><updated>2023-01-17T00:00:00-07:00</updated><id>http://localhost:4000/linux/shell/fish/Plate%20of%20Shrimp</id><content type="html" xml:base="http://localhost:4000/linux/shell/fish/Plate-of-Shrimp/">&lt;h1 id=&quot;linux-on-the-desktop&quot;&gt;Linux on the Desktop&lt;/h1&gt;
 
-&lt;p&gt;Firstly, it matters because of culture. I am more productive in Linux because of 
-how I feel while I am working. I have an inexpensive laptop that runs Linux well,
-maybe not everything, but enough that its comfortable. Every time I make a blog
-about Linux stuff, 6 months later I look back on it and wonder why I made things
-so complicated.&lt;/p&gt;
+&lt;p&gt;Firstly, it matters because of culture. I am more productive in Linux because of
+how I feel at work. I have an inexpensive laptop that runs Linux well, maybe not
+everything, but enough that it’s comfortable.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;Before I replaced the touchpad button board on this laptop, Windows would not
+boot off the hard drive or iso key.&lt;/p&gt;
 
 &lt;p&gt;I just want to create.&lt;/p&gt;
 
-&lt;p&gt;That being said, I have used a thousand configurations, and when I am tired, I will
-try anything because its fun. That is Linux culture I have, the culture of
+&lt;p&gt;That being said, I have used a thousand configurations, and when I am tired, I
+will try anything because its fun. That is Linux culture I have, the culture of
 experimenting.  The balance between always trying new things and 
 using the tools to create can be tricky 🥸.&lt;/p&gt;
 

@@ -30,13 +30,13 @@ var store = [{
         "teaser": null
       },{
         "title": "Plate of Shrimp",
-        "excerpt":"Linux on the Desktop Firstly, it matters because of culture. I am more productive in Linux because of how I feel while I am working. I have an inexpensive laptop that runs Linux well, maybe not everything, but enough that its comfortable. Every time I make a blog about Linux...","categories": ["Linux","Shell","Fish"],
+        "excerpt":"Linux on the Desktop Firstly, it matters because of culture. I am more productive in Linux because of how I feel at work. I have an inexpensive laptop that runs Linux well, maybe not everything, but enough that it’s comfortable. Before I replaced the touchpad button board on this laptop,...","categories": ["Linux","Shell","Fish"],
         "tags": ["Linux"],
         "url": "/linux/shell/fish/Plate-of-Shrimp/",
         "teaser": null
       },{
         "title": "Mining and Stats",
-        "excerpt":"[FISH] Milan Kundera I’ve always been a gamer, it relieves stress and does not cost much. It does cost the time you could of put into something else though. How can we manage the time? I started playing War Brokers because it was Linux compatible. Warbrokers is renowned for its...","categories": ["Javascript","Data Mining","SQLite"],
+        "excerpt":"[FISH] Milan Kundera I’ve always been a gamer, it relieves stress and does not cost much. It does cost the time you could have put into something else though. How can we manage the time? I started playing War Brokers because it was Linux-compatible. Warbrokers is renowned for its active...","categories": ["Javascript","Data Mining","SQLite"],
         "tags": ["Javascript"],
         "url": "/javascript/data%20mining/sqlite/Mining-and-Stats/",
         "teaser": null

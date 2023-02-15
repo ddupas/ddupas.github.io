@@ -16,7 +16,8 @@ how I feel at work. I have an inexpensive laptop that runs Linux well, maybe not
 everything, but enough that it's comfortable.
 
 Before I replaced the touchpad button board on this laptop, Windows would not
-boot off the hard drive or iso key.{: .notice--info}
+boot off the hard drive or iso key.
+{: .notice--info}
 
 I just want to create. 
 
