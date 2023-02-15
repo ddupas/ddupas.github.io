@@ -40,7 +40,7 @@ I am trying to keep it under 150 kills per day. 🤐
 
 # [FISH] Repoman
 
-The entire project is hosted on Github with a more detailed breakdown how it 
+The entire project is hosted on Github with a more detailed breakdown of how it 
 works in the README.
 
 [https://github.com/ddupas/msfish](https://github.com/ddupas/msfish)
