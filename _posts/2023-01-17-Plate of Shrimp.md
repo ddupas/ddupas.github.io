@@ -11,16 +11,17 @@ tags:
 ---
 # Linux on the Desktop
 
-Firstly, it matters because of culture. I am more productive in Linux because of 
-how I feel while I am working. I have an inexpensive laptop that runs Linux well,
-maybe not everything, but enough that its comfortable. Every time I make a blog
-about Linux stuff, 6 months later I look back on it and wonder why I made things
-so complicated. 
+Firstly, it matters because of culture. I am more productive in Linux because of
+how I feel at work. I have an inexpensive laptop that runs Linux well, maybe not
+everything, but enough that it's comfortable.
+
+Before I replaced the touchpad button board on this laptop, Windows would not
+boot off the hard drive or iso key.{: .notice--info}
 
 I just want to create. 
 
-That being said, I have used a thousand configurations, and when I am tired, I will
-try anything because its fun. That is Linux culture I have, the culture of
+That being said, I have used a thousand configurations, and when I am tired, I
+will try anything because its fun. That is Linux culture I have, the culture of
 experimenting.  The balance between always trying new things and 
 using the tools to create can be tricky 🥸. 
 
