@@ -86,6 +86,11 @@ NoNewPrivileges=on
 
 ## also set git home in /etc/passwd to /srv/git
 
+## finally enable socket activation of git daemon
+```sh
+ systemctl enable git-daemon.socket
+ systemctl start git-daemon.socket
+``` 
 
 ## Creating repository
 ```sh
