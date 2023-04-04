@@ -44,8 +44,9 @@ I've been using it for database files without issue.
 So all this preamble is the motivation to set up my own Git server and use that
 to syncronize my keepass files.
 
-| My text life: Powered by fish, ssh, git, micro and lazygit |
-|------------------------------------------------------------|
+My text life: Powered by fish, ssh, git, micro and lazygit.
+{: .notice--info}
+
 
 ## Step 1 Setup Git Server on life server (laptop 14-dk1018ca)
 
