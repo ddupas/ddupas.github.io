@@ -52,9 +52,8 @@ My text life: Powered by fish, ssh, git, micro and lazygit.
 
 If your house is burning down it is easier to grab than your desktop.
 
-## git-daemon configs
+## File: /usr/lib/systemd/system/git-daemon.socket
 ```txt
-#  File: /usr/lib/systemd/system/git-daemon.socket
 [Unit]
 Description=Git Daemon Socket
 
@@ -66,9 +65,8 @@ Accept=true
 WantedBy=sockets.target
 ```
 
+## File: /usr/lib/systemd/system/git-daemon@.service
 ```txt
-#   File: /usr/lib/systemd/system/git-daemon@.service
-# also set git home in /etc/passwd to /srv/git
 [Unit]
 Description=Git Daemon Instance
 
@@ -86,6 +84,8 @@ PrivateDevices=on
 NoNewPrivileges=on
 ```
 
+## also set git home in /etc/passwd to /srv/git
+
 
 ## Creating repository
 ```sh
@@ -95,22 +95,17 @@ root@14-dk1018ca /s/git# git --bare init org.git
 root@14-dk1018ca /s/git# chown -R git:git org.git
 ```
 
-then from any computer on my lan:
+then from any device on my lan:
 ```
 git clone  git://192.168.0.151/org.git org
 git add ...
 git commit ...
 git push 
 ```
-Also, while we are getting organized:
-1. keepass.git /keepass password db
-2. org.git  /org /org/jobsearch /org/todos
-3. config.git /config config files, with path at top of each
 
 ## Step 2 Consolidate
 
-List current locations and bring together sources. This is going to be a lot of
-work.
+List current locations and bring together sources.
 Luckily chrome passwords has export csv and keepass has import generic csv.
 
 ### Locations
@@ -127,16 +122,16 @@ Luckily chrome passwords has export csv and keepass has import generic csv.
 
 ## Step 3 Test push / pull
 
-for each location pull keepass repo from 
+for each location pull keepass repo from master-life-server ->> 14-dk101ca
 
-- master-life-server ->> 14-dk101ca
-- git clone git://192.168.0.151/keepass.git keepass
-- ~/keepass/pass.kbdx
+```sh
+$ cd
+$ git clone git://192.168.0.151/keepass.git
+```
 
 ## termux / phone setup
-- location is downloads/keepass/pass.kbdx
-- must use the following because android fs broken (root owns files)
-```
+the android filesystem is broken, root owns files, so 
+```sh
 git config --global --add safe.directory /storage/emulated/0/Download/keepass
 ```
 
