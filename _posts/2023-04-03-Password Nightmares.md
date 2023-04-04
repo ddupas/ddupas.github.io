@@ -96,34 +96,29 @@ NoNewPrivileges=on
 ```sh
 root@14-dk1018ca /s/git# pwd
 /srv/git
-root@14-dk1018ca /s/git# git --bare init org.git
-root@14-dk1018ca /s/git# chown -R git:git org.git
+root@14-dk1018ca /s/git# git --bare init keepass.git
+root@14-dk1018ca /s/git# chown -R git:git keepass.git
 ```
 
-then from any device on my lan:
-```
-git clone  git://192.168.0.151/org.git org
-git add ...
-git commit ...
-git push 
+then from any device on my lan to get new copy:
+```sh
+git clone  git://192.168.0.151/keepass.git
 ```
 
 ## Step 2 Consolidate
 
 List current locations and bring together sources.
-Luckily chrome passwords has export csv and keepass has import generic csv.
+Luckily chrome passwords has export csv and Keepass has import generic csv.
+Also, Keepass can merge kdbx files with the import function.
 
-### Locations
+### Locations of keepass files, browser autofills, google passwords
 
-- keepass files
 1. Laptop
 2. Desktop
 3. Old Laptop
 4. Phone
-5. 2 google accounts gdrive
-- browser autofils
-1. laptop
-2. phone
+5. 2 google accounts gdrive kdbx files
+6. 2 google accounts google passwords
 
 ## Step 3 Test push / pull
 
@@ -140,7 +135,7 @@ the android filesystem is broken, root owns files, so
 git config --global --add safe.directory /storage/emulated/0/Download/keepass
 ```
 
-## Step 5 Create autofill and sync policies
+## Step 4 Create autofill and sync policies
 
 - do I want to use browser autofil - no - 
 - do i want to use google password manager? - no - 
@@ -150,7 +145,7 @@ git config --global --add safe.directory /storage/emulated/0/Download/keepass
 
 ## Summary
 
-What a nightmare. Hope this works, I am tired of syncronization problems leading
-to missing or stale passwords.
+Now we have versioning for your keepass files. Being able
+to annotate changes will help me sync the file to all my devices.
 
 Do you think Git is amazing? Let me know!
