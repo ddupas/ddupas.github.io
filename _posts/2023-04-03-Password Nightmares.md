@@ -1,4 +1,16 @@
-# Password Nightmares
+---
+title: Password Nightmares
+categories:
+  - Git
+  - Keepass
+header:
+  image: /images/mound.png
+tags:
+  - Git
+  - Keepass
+---
+
+
 
 Managing  passwords has evolved a lot for me. The way I manage files has changed
 a lot for me as well. Many applications can manage a keepass database, but we
