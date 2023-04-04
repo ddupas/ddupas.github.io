@@ -4,7 +4,7 @@ categories:
   - Git
   - Keepass
 header:
-  image: /images/mound.png
+  image: /images/Screenshot from 2023-04-04 09-38-28.png
 tags:
   - Git
   - Keepass
