@@ -98,11 +98,13 @@ root@14-dk1018ca /s/git# pwd
 /srv/git
 root@14-dk1018ca /s/git# git --bare init keepass.git
 root@14-dk1018ca /s/git# chown -R git:git keepass.git
+passwd git
 ```
 
-then from any device on my lan to get new copy:
+then from any device on my lan to get new copy using ssh protocol
+(git protocol is read-only)
 ```sh
-git clone  git://192.168.0.151/keepass.git
+git clone git@192.168.0.151:/srv/git/keepass.git
 ```
 
 ## Step 2 Consolidate
