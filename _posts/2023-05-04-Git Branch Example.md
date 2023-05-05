@@ -1,4 +1,13 @@
-# branching notes
+---
+title: Git Branching Example
+categories:
+  - Git
+  - Keepass
+header:
+  image: /images/Screenshot from 2023-04-04 09-38-28.png
+tags:
+  - Git
+---
 
 ## fish shell set editor
 setenv EDITOR micro
