@@ -47,7 +47,7 @@ git push --set-upstream origin <edit-name>
 ## after pull request approved, we must update and pull
 ```
 git remote update
-git branch main
+git checkout main
 git pull
 ```
 
