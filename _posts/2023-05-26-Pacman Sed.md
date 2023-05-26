@@ -1,5 +1,5 @@
 ---
-title: Bing Wallpaper Sway
+title: Pacman Sed Qi
 categories:
   - Linux
   - Pacman
