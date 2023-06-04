@@ -2,7 +2,7 @@
 title: Slurp Grab
 categories:
   - Linux
-  - Pacman
+  - Wayland
 header:
 tags:
   - Linux
