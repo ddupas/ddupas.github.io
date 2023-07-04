@@ -6,5 +6,3 @@ title: "About"
 
 Welcome to my blog website. If you believe in me, thank you very much. There
 are many people I'd like to thank. Thank you mom. Feel free to drop me a note.
-
-
