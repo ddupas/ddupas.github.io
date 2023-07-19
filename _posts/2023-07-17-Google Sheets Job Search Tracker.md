@@ -19,4 +19,4 @@ Features:
 - contacts
 
 Use this link to create a copy of the Job Search Tracker yeg23
-(https://docs.google.com/spreadsheets/d/1l-1j_UgG1vrcCzPW8HTRU15QT7PWHqTPqg84el1rUMw/copy)
+[Job Search Tracker yeg23](https://docs.google.com/spreadsheets/d/1l-1j_UgG1vrcCzPW8HTRU15QT7PWHqTPqg84el1rUMw/copy)
