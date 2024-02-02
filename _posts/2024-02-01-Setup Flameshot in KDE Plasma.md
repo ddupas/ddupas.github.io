@@ -15,7 +15,7 @@ tags:
 3. Configure Shortcuts
 4. Configure Clipboard
 
-# Disable Spectacle
+# Step 1: Disable Spectacle
 
 Though I have enjoyed spectacle, I've moved onto Flameshot. Spectacle does have a quiet mode, but it does not have the annotation and imgur upload features. I also like the rectangle selection with Flameshot.
 
@@ -25,7 +25,16 @@ To open Shortcut settings in Plasma Desktop, we can use Alt + Spacebar, they typ
 
 ![  type alt + space, to open krunner ](https://i.imgur.com/clqm1Ub.png)
 
-3. System Settings, Configure Keyboard Shortcuts
+![ disable spectacle ](/images/shortcuts00.png)
+
+
+# Step 2: Install Flameshot
+
+https://flameshot.org/docs/installation/installation-linux/
+
+
+# Step 3: System Settings, Configure Keyboard Shortcuts
+
 
 # 4. Add Copy current screen to clipboard to Print button
 
