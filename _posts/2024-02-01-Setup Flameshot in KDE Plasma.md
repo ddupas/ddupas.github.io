@@ -77,7 +77,7 @@ More info: [﻿docs.kde.org/stable5/en/plasma-workspace/klipper/preferences.html
 > Meta           Start / Krunner Search
 
 # EXTRA: Shortcuts KDE Plasma that are DIFFERENT
-> Control Space
+> Alt Space
      KDE - Krunner Search
      W11 - Window Menu
 
