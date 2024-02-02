@@ -87,7 +87,22 @@ More info: [﻿docs.kde.org/stable5/en/plasma-workspace/klipper/preferences.html
 # EXTRA: Other Clipboard Settings
 >  Copy Highlighted Text
 
-Do not need to press Control C to copy, all selected text automatically gets copied. Slick, but replacing selected text will not work because the last selection will be on top of the clipboard history. The solution is to paste first then delete rather than replace.
+In the Copy Highlighted Text Mode we do not need to press Control C to copy, all selected text automatically gets copied. Slick, but replacing selected text will not work because the last selection will be on top of the clipboard history. One solution is to paste first then delete.
+
+To replace highlighted text in this mode we can use:
+
+> Meta V, Down Arrow, Enter, Control V
+
+🤷 This would grab the second item in the clipboard history.
+
+Pasting the second to last item in the clipboard history could be a future option called: Enable Replace.
+
+Enable Replace only happens if there is still something highlighted and we are in an editor (not a shell) and are in Copy Highlighted Mode.
+
+Trust me, if you try this mode, you will get it. I keep copying text then selecting something else to replace with the last selection.
+
+There is another funny Clipboard History gotcha that I could mention and it is a little off-topic, but interesting. If you are in a remote session with AnyDesk or something like that, and Share Clipboard is enabled, and same with someone else who is also AnyDesk'd into the same computer, Then, if by chance one of you are connected to multiple computers who also have other people logged in and they all have clipboard sharing enabled. What happens is your clipboard becomes a dumping area for all the users that form a connected network of shared clipboards. This becomes very interesting if you enable clipboard history as you can then see what everyone in the remote mesh puts in their clipboard, but your clipboard gets pushed too by other peoples' data at any moment.
+
 
 # EXTRA: Tweek Firefox to get more laptop screen:
 ![image.png](https://eraser.imgix.net/workspaces/Qj05EF0NJUgnMJNG1Uym/QUxlyIfqGXYJL2M9giYm0uxIucd2/xUrE78ZK5eJBPVYk3MO9z.png?ixlib=js-3.7.0 "image.png")
