@@ -24,21 +24,28 @@ I do not want my screengrabber to prompt me or create files. If I want to save t
 Unfortunately, the default shortcuts for both Flameshot and Spectacle in KDE Plasma  interupt you with a prompt, we can create custom commands instead.
 
 <figure>
-  <img src="{{site.url}}/images/editcommand00.png"
+  <img width="300px" src="{{site.url}}/images/editcommand00.png"
   alt="Edit Command"/>
-  <figcaption>Edit Command</figcaption>
+  <figcaption>Add Command, Edit Command, KDE Plasma Shortcut Settings </figcaption>
 </figure>
 
+Custom Commands
+===============
 
-Spectacle
-=========
+### Spectacle
+```sh
 spectacle -b -c   # capture screen to clipboard in the background (do not prompt)
-spectacle -r -c   # provide rectangle selection to copy to the clipboard
+spectacle -r -c   # rectangle selection to copy to the clipboard
+```
 
-Flameshot
-=========
+### Flameshot
+```sh
+# capture screen to clipboard in the background (do not prompt)
+flameshot screen -c
+
+# rectangle selection to copy to the clipboard
 flameshot gui -c --region '300x300+300+300'
-
+```
 
 To open Shortcut settings in Plasma Desktop, we can use Alt + Spacebar, then type shortcut.
 
