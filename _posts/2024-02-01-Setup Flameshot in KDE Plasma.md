@@ -88,7 +88,10 @@ Allows you to have images in your clipboard history that you mayvreorder when yo
 
 
 
-Also:
+# EXTRA: Tweek Firefox to get more laptop screen:
 Firefox with Vertical Tabs and no top bar article:
 https://www.pcworld.com/article/823939/vertical-tabs-in-firefox-yes-its-really-possible.html
 https://github.com/OneJaredNewman/firefoxcss
+
+
+# EXTRA: Captioning Images in Markdown using HTML <figure>
