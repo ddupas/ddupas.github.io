@@ -11,19 +11,27 @@ tags:
 ![34_20200112Betancourtjumperonplastic4.jpg](https://eraser.imgix.net/workspaces/Qj05EF0NJUgnMJNG1Uym/QUxlyIfqGXYJL2M9giYm0uxIucd2/ocwnjtLueVq00WEgtLxsJ.jpg?ixlib=js-3.7.0 "34_20200112Betancourtjumperonplastic4.jpg")
 
 
+
+```
+title: Setup Flameshot or Spectacle in KDE Plasma
+categories:
+ - KDE
+ - Productivity
+header:
+tags:
+```
 # Steps Overview
 1. Install Flameshot and/or Spectacle
 2. Disable Default Shortcuts
 3. Configure Shortcuts
 4. Configure Clipboard
-
 # Step 1: Install Flameshot
 [﻿https://flameshot.org/docs/installation/installation-linux/](https://flameshot.org/docs/installation/installation-linux/)
 
 # Step 2: Disable Default Shortcuts
 Both Flameshot and Spectacle do the job. Flameshot has some nifty annotation tools, otherwise they both have the features I need from a screen capture utility. They both require some non-default configuration so that the shortcuts (Print and Shift Print) work the way I like. Print should be silent and capture the entire screen to the clipboard. Shift Print should provide a sizable rectangle to capture to the clipboard.
 
-If we want to save an image in the clipboard as a file, we can press Control V in Dolphin File Manager. Most of the time, we will want to paste into an application like Discord, Krita or Eraser.io.
+If we want to save an image in the clipboard as a file, we can press Control V in Dolphin File Manager. We usually wish to paste it into an application like Discord, Krita, or Eraser.io.
 
 Unfortunately, the default shortcuts for both Flameshot and Spectacle in KDE Plasma interrupt you with a prompt, so we can create custom commands instead.
 
@@ -84,24 +92,27 @@ More info: [﻿docs.kde.org/stable5/en/plasma-workspace/klipper/preferences.html
 > Alt F3
      KDE - Window Menu
 
+
+
 # EXTRA: Other Clipboard Settings
 >  Copy Highlighted Text
 
-In the Copy Highlighted Text Mode we do not need to press Control C to copy, all selected text automatically gets copied. Slick, but replacing selected text will not work because the last selection will be on top of the clipboard history. One solution is to paste first then delete.
+In the Copy Highlighted Text Mode we do not need to press Control C to copy, all selected text automatically gets copied. Slick, but replacing selected text will not work because the last selection will be on top of the clipboard history. One solution is to paste first, then delete.
 
-To replace highlighted text in this mode we can use:
+To replace the highlighted text in this mode, we can use:
 
 > Meta V, Down Arrow, Enter, Control V
 
 🤷 This would grab the second item in the clipboard history.
 
-Pasting the second to last item in the clipboard history could be a future option called: Enable Replace.
+Pasting the second to last item in the clipboard history could be a future option called **_Enable Replace_**.
 
-Enable Replace only happens if there is still something highlighted and we are in an editor (not a shell) and are in Copy Highlighted Mode.
+Enable Replace only happens if something is still highlighted and we are in an editor (not a shell) and are in Copy Highlighted Mode.
 
-Trust me, if you try this mode, you will get it. I keep copying text then selecting something else to replace with the last selection.
+Trust me, if you try this mode, you will get it. I keep copying text and then selecting something else to replace with the last selection.
 
-There is another funny Clipboard History gotcha that I could mention and it is a little off-topic, but interesting. If you are in a remote session with AnyDesk or something like that, and Share Clipboard is enabled, and same with someone else who is also AnyDesk'd into the same computer, Then, if by chance one of you are connected to multiple computers who also have other people logged in and they all have clipboard sharing enabled. What happens is your clipboard becomes a dumping area for all the users that form a connected network of shared clipboards. This becomes very interesting if you enable clipboard history as you can then see what everyone in the remote mesh puts in their clipboard, but your clipboard gets pushed too by other peoples' data at any moment.
+There is another funny Clipboard-History Gotcha that I could mention, and it is a little off-topic but exciting. When we are in a remote session with AnyDesk or something like that, and Share Clipboard is enabled. Also, other people could be connected in the same way. What happens is your clipboard becomes a dumping area for all the users that form a connected network of shared clipboards. This becomes very interesting if you enable Clipboard-History as you can see what everyone in the remote mesh puts in their clipboard. Your clipboard gets pushed too by other peoples' data at any moment.
+
 
 
 # EXTRA: Tweek Firefox to get more laptop screen:
@@ -136,6 +147,4 @@ Control C, Control V is so 2010! We no longer have to go back and forth between 
 [﻿Eraser.io](https://eraser.io/) ✅
 
 [﻿KDE.org](https://kde.org/) ✅
-
-
 
