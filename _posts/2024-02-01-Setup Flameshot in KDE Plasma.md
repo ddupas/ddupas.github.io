@@ -85,8 +85,9 @@ More info: [﻿docs.kde.org/stable5/en/plasma-workspace/klipper/preferences.html
 
 In the Copy Highlighted Text Mode we do not need to press Control C to copy, all selected text automatically gets copied. Slick, but replacing selected text will not work because the last selection will be on top of the clipboard history. One solution is to paste first, then delete.
 
-To replace the highlighted text in this mode, we can use:
-> Meta V, Down Arrow, Enter, Control V
+To replace the highlighted text in this mode, we can use
+
+Meta V Down Arrow, Enter, Control V
 {: .notice--info}
 
 🤷 This would grab the second item in the clipboard history.
